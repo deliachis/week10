@@ -1,0 +1,19 @@
+class People():
+ def __init__(per,name,age,gender):
+        per.name=name
+        per.age=age
+        per.gender=gender
+
+ def showDetails(per):
+     print("Name\t",per.name)
+     print("Age\t",per.age)
+     print("Gender\t",per.gender)
+
+p1=People("Mary",14,"F")
+p2=People("John",22,"M")
+p3=People("Tom",24,"M")
+p4=People("Claire",33,"F")
+p1.showDetails()
+p2.showDetails()
+p3.showDetails()
+p4.showDetails()
